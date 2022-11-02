@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Slab&family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Oswald&family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Josefin+Sans&family=Oswald&family=Source+Sans+Pro:ital,wght@0,400;1,300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(128, 128, 128);
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+    width: 300px;
+
+
+}
+
+.sidebar nav {
+    padding: 12px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 33px;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.main {
+    /* background-color: yellow;*/
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    margin: auto;
+    margin: 120px auto;
+    /* background-color: royalblue; */ 
+    height: 45vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.devinfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.hello {
+    font-size: 55px;
+
+
+}
+
+.Name {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.About {
+    font-size: 30px;
+}
+
+.button {
+    margin-top: 34px;
+}
+
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0px;
+    cursor: pointer;
+
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+
+}
+
+
+.btn :hover {
+    background-color: white;
+    color: dodgerblue;
+
+}
+
+.devpic img {
+    width: 554px;
+}
+
+.contactform {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 244px;
+    padding: 0 56px;
+    margin: 0 px;
+
+}
+
+.contactform h1 {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 144px;
+    /*text-align: center;*/
+    padding: 10px 0;
+
+
+}
+
+.contactform form div {
+    padding: 4px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+
+.contactform div input {
+    width: 60vw;
+    border-radius: 15px;
+    margin: 8px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: rgb(80, 89, 255);
+    margin: 0 5px;
+    padding: 3px 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+    /* position:relative ; */
+}
+
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Oswald', sans-serif;
+    /* margin: 0 250px; */
+}
+
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 23px;
+    font-weight: bold;
+    /* margin: 0 250px; */
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0 10px;
+}
+
+.intro h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin:0 10px;
+
+
+}
+
+.intro p {
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.skillscontainer {
+    padding: 12px;
+
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    margin: 0 10px;
+
+
+}
+
+.skill {
+    margin: 0 10px;
+    height: 6px;
+    background-color: blue;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: rgb(226, 43, 116);
+}
+
+.fifty {
+    width: 125px;
+    background-color: aqua;
+
+}
+
+.t25 {
+    width: 75px;
+    background-color: black;
+}
+
+/* .sidebargo{ */
+    /*transform: translate(-343px,0px);
+    position: absolute;*/
+/* } */
+
+
+/*.hamburger {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.cross{
+    margin-left: 185px;
+    margin-top: 10px;
+    
+
+}*/
+/*.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+   /* [class*="col-"] {
+        width: 100%;
+    }
+}*/
+@media (max-width: 1600px) {
+     
+    
+  }
+  /* .devpic{ */
+    /* display: none; */
+  /* } */
+  /*.sidebar{
+    transform: translate(-443px ,0px);
+    
+  }
+  
